@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0px;
+    text-align:center;
+}
+
+body{
+    text-align:center;
+    background-color:#eee;
+    overflow:hidden;
+}
+
+#bodyContainer{
+    display:table;
+    margin:0 auto;
+    width:780px;
+}
+
+#title{
+	margin:80px 10px 0 0;
+	float:left;
+	width:34px;
+	height:370px;
+	background:url(../img/title.png) 0 0 no-repeat;
+}
+
+#buttons{
+	float:left;
+    display:table;
+    padding:0;
+    margin:20px 10px 0 0;
+    width:27px;
+    height:500px;
+    border:1px solid #ccc;
+}
+
+#standard,
+#clear{
+    margin:5px 8px;
+    width:32px;
+    height:32px;
+    background-image:url(../img/play.png);
+}
+
+#clear{
+	background-image:url(../img/shut_down.png);
+}
+
+#BoardContainer{
+	width:500px;
+	float:left;
+	margin:10px 0 0 0;
+	display:table;
+	padding:22px 22px 1px 7px;
+	background-color:#ccc;
+}
+
+#nums{
+	margin:0 1px 0 0;
+	float:left;
+    clear:left;
+    width:17px;
+}
+
+.num{
+	border:1px solid #ccc;
+	padding-top:20px;
+    height:38px;
+    width:17px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+#char{
+	clear:left;
+	border:1px solid #ccc;
+	padding-left:16px;
+    width:483px;
+    height:18px;
+}
+
+#m1,#m2,#m3,#m4,#m5,#m6,#m7,#m8{
+	padding-top:2px;
+	margin-left:2px;
+	border:1px solid #ccc;
+    float:left;
+    height:16px;
+    width:56px;
+}
+
+#m5,#m6{
+    margin-top:2px;
+}
+
+#chessBoard{
+	margin-left:1px;
+    float:left;
+    padding:0;
+    width:480px;
+    height:480px;
+}
+
+#c0,#c1,#c2,#c3,#c4,#c5,#c6,#c7,
+#c8,#c9,#c10,#c11,#c12,#c13,#c14,#c15,
+#c16,#c17,#c18,#c19,#c20,#c21,#c22,#c23,
+#c24,#c25,#c26,#c27,#c28,#c29,#c30,#c31,
+#c32,#c33,#c34,#c35,#c36,#c37,#c38,#c39,
+#c40,#c41,#c42,#c43,#c44,#c45,#c46,#c47,
+#c48,#c49,#c50,#c51,#c52,#c53,#c54,#c55,
+#c56,#c57,#c58,#c59,#c60,#c61,#c62,#c63
+{
+    float:left;
+    width:60px;
+    height:60px;
+}
+
+.ch1,.ch2,.ch3,.ch4,.ch5,.ch6,.ch7,
+.ch8,.ch9,.ch10,.ch11,.ch12{
+    height:60px;
+    width:60px;
+}
+
+.ch1{
+    background-image:url(../img/chesses/hoo1.gif);
+}
+
+.ch7{
+    background-image:url(../img/chesses/hoo2.gif);
+}
+
+.ch2{
+    background-image:url(../img/chesses/hasag1.gif);
+}
+
+.ch8{
+    background-image:url(../img/chesses/hasag2.gif);
+}
+
+.ch3{
+    background-image:url(../img/chesses/mori1.gif);
+}
+
+.ch9{
+    background-image:url(../img/chesses/mori2.gif);
+}
+
+.ch4{
+    background-image:url(../img/chesses/teme1.gif);
+}
+
+.ch10{
+    background-image:url(../img/chesses/teme2.gif);
+}
+
+.ch5{
+    background-image:url(../img/chesses/bars1.gif);
+}
+
+.ch11{
+    background-image:url(../img/chesses/bars2.gif);
+}
+
+.ch6{
+    background-image:url(../img/chesses/han1.gif);
+}
+
+.ch12{
+    background-image:url(../img/chesses/han2.gif);
+}
+
+#chessBox{
+	margin:10px 0;
+    float:right;
+    width:140px;
+    height:507px;
+    padding:8px 0 0 5px;
+    text-align: left;
+}
+
+#cb1,#cb2,#cb3,#cb4,#cb5,#cb6,#cb7,#cb8,#cb9,#cb10,#cb11,#cb12{
+	margin:2px 0 0 5px;
+	float:left;
+	width:60px;
+	height:80px;
+	border:1px solid #ccc;
+	text-align:center;
+}
+
+#numib1,#numib2,#numib3,#numib4,#numib5,#numib6,
+#numib7,#numib8,#numib9,#numib10,#numib11,#numib12{
+	width:60px;
+	height:17px;
+	font-size:14px;
+	background-color:#ccc;
+	padding:3px 0 0 0;	
+}
+
+#selectedChess{
+	position:absolute;
+	border:1px dashed #e63;
+}
+
+#poweredBy{
+	border:1px dashed #eee;
+	margin:20px auto;
+	padding-left:40px;
+	width:120px;
+	height:34px;
+	background:url(../img/mobile.png) 0 0 no-repeat;
+}
